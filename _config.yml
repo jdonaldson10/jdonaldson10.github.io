@@ -1,0 +1,12 @@
+markdown: rdiscount
+pygments: true
+permalink: /posts/:title
+rdiscount:
+  extensions: [smart]
+
+name: James Donaldson
+url: http://jdonaldson10.github.io
+description: A fantastic blog that is fantastic.
+twitter: jimbo_donaldson
+github: jdonaldson10
+gravatar_url: http://gravatar.com/avatar/0ff5d87772e010882b55d70e12109abf
