@@ -1,7 +1,7 @@
-dbyll
+jamesdonaldson.io
 =====
 
-Open source stylish, minimalistic theme for jekyll.  
+My Personal Blog
 Demo: http://dbtek.github.io/dbyll/
 
 ### Features
