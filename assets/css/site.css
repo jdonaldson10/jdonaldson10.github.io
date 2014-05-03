@@ -31,9 +31,7 @@ h1,h2,h3,h4,h5,h6{
 
 .header{
 	margin: 20px 0 35px 0;
-		
-	/*background: url(../../content/me173.png) no-repeat;*/
-	background: url(/assets/img/me173.png) no-repeat;
+	background: url(../img/me173.png) no-repeat;
 	padding-left: 100px;
 	height: 100px;
 	background-size: 80px;
@@ -58,7 +56,7 @@ h1,h2,h3,h4,h5,h6{
     padding: 0;
     margin: 5px 0;
     font-family: 'Open Sans';
-    font-weight: 300;
+    font-weight: 400;
   }
   .menu li {
     display: inline;
