@@ -1,4 +1,6 @@
+encoding: UTF-8
 name: jamesdonanaldson.io
+baseurl: /jamesdonaldson.io
 markdown: redcarpet
 pygments: true
 permalink: pretty
