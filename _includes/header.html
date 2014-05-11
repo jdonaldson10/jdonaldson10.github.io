@@ -1,17 +1,13 @@
-<! -- header.html end -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>{{ page.title }}</title>
-{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-{% if site.author.name %}<meta name="author" content="{{ site.author.name }}">{% endif %}
-
-<link rel="shortcut icon" href="favicon.ico" type="image/icon">
-<link rel="icon" href="favicon.ico" type="image/icon">
-
-<link rel="stylesheet" href="{{ site.BASE_PATH }}/assets/resources/foundation/css/foundation.min.css">
-<link href='http://fonts.googleapis.com/css?family=Raleway|Open+Sans:400,300,700|Merriweather|Lora|Vollkorn' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="{{ site.BASE_PATH }}/assets/resources/font-awesome/css/font-awesome.min.css"> 
-<link rel="stylesheet" href="{{ site.BASE_PATH }}/assets/css/site.css"> 
-<script src="{{ site.BASE_PATH }}assets/resources/foundation/js/vendor/custom.modernizr.js"></script>
-
-<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.BASE_PATH }}/feed.xml">
+<div class="row">
+	<div class="large-12 columns">
+		<div class='header'>	
+			<a id='logo' href='/'>James<b>Donaldson</b>.io</a> 
+			<ul class="menu">
+				<li><a href="{{ site.baseurl }}">Blog</a></li>
+				<li><a href="{{ site.baseurl }}about/">About</a></li>				
+				<li><a href="{{ site.baseurl }}projects/">Projects</a></li>
+				<li><a href="{{ site.baseurl }}research/">Research</a></li>
+			</ul>	  
+		</div>
+	</div>
+</div>

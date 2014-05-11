@@ -1,6 +1,8 @@
 encoding: UTF-8
 name: jamesdonanaldson.io
-baseurl: /jamesdonaldson.io
 markdown: redcarpet
-pygments: true
+highlighter: pygments
+description: "Blog for James Donaldson - web developer and Phd research based in Belfast, Northern Ireland."
+url: "http://jamesdonaldson.io"
+baseurl: http://jamesdonaldson.io
 permalink: pretty

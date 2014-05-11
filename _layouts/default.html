@@ -1,28 +1,10 @@
 <!DOCTYPE html>
 <!--[if IE 8]> <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-<head>
-	{% include header.html %}
-</head>
+{% include head.html %}
 <body>
-	<div class="row">
-		<div class="large-12 columns">
-		<div class='header'>
-			<a id='logo' href='{{ site.baseurl }}'>James<b>Donaldson</b>.io</a> 
-			<ul class="menu">
-				<li><a href="{{ site.baseurl }}">Blog</a></li>
-				<li><a href="{{ site.baseurl }}/about/">About</a></li>				
-				<li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
-				<li><a href="{{ site.baseurl }}/research/">Research</a></li>
-			</ul>	  
-		</div>
-		</div>
-	</div>
-	
-
-	{{ content }}
-	
-
+	{% include header.html %}
+  {{ content }}
   <script src='{{ site.baseurl }}/assets/resources/jquery/jquery.min.js'></script>  
   <script src="{{ site.baseurl }}/assets/resources/foundation/js/foundation.min.js"></script>
   <script src="{{ site.baseurl }}/assets/resources/foundation/js/foundation.min.js"></script>

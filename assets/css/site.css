@@ -161,3 +161,4 @@ transition: color 0.25s ease-in;
 	font-family: "Open Sans", Arial, sans-serif;
 	font-weight: normal;
 }
+.row{ max-width: 800px !important;}
