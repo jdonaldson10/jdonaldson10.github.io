@@ -38,9 +38,7 @@ h1,h2,h3,h4,h5,h6{
 	background-size: 80px;
 	padding-top: 10px;	
 	font-family: 'Open Sans';
-	border-bottom: 1px solid #eee;
 }
-
 #logo{
 	font-size: 1.6875em;
 	font-weight:300;
@@ -48,9 +46,6 @@ h1,h2,h3,h4,h5,h6{
 	margin:0;
 	padding:0;
 	text-decoration: none !important;
-}
-#logo b{
-	/*color:#967900;*/
 }
 
  .menu {
@@ -75,6 +70,32 @@ h1,h2,h3,h4,h5,h6{
 	border-bottom: thin solid red !important;
 	border-bottom: 1px solid #967900 !important;
   }
+
+
+@media only screen and (max-width: 40em) {
+	.header{
+		background-size: 30px;
+		background-position: 0 10px;   /* 10px,  0px */
+		padding-left: 50px;
+		margin-bottom: 0;
+	}
+	.menu{
+		margin-left: -50px;
+	}
+	.menu li{
+		padding-right: 15px;
+	}
+	.menu li a{
+		font-size: 0.9em;
+	}
+} 
+
+
+
+
+
+
+
 
 
 .footer{
