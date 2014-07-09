@@ -45,27 +45,40 @@ h1,h2,h3,h4,h5,h6{
 	text-decoration: none !important;
 }
 
- .menu {
-    padding: 0;
-    margin: 5px 0;
-    font-weight: 400;
-  }
-  .menu li {
-    display: inline;
-    padding-right: 20px;
-  }
-  .menu li a{
-    font-size: 1em;
+.menu {
+	padding: 0;
+	margin: 5px 0;
+	font-weight: 400;
+}
+.menu li {
+	display: inline;
+	padding-right: 20px;
+}
+.menu li a{
+	font-size: 1em;
 	color: #222;
-  }
-  .menu li a:hover{
+}
+.menu li a:hover{
 	border-bottom: thin solid #333;
 	text-decoration: none;
-  }
-  .menu li.active a{
+}
+.menu li.active a{
 	border-bottom: thin solid red !important;
 	border-bottom: 1px solid #967900 !important;
-  }
+}
+
+footer{
+	background: #eee;
+	height: 100px;
+	padding-top: 40px;
+	margin-top: 150px;
+}
+footer .links{
+	float: right;
+}
+footer .links a{
+	padding-right: 10px;
+}
 
 
 @media only screen and (max-width: 40em) {
@@ -85,60 +98,6 @@ h1,h2,h3,h4,h5,h6{
 		font-size: 0.9em;
 	}
 } 
-
-
-
-
-
-
-
-
-
-.footer{
-	margin-top:20px;
-	padding: 60px 0;
-	border-top: 1px solid #eee;
-	color: #eee;
-	text-align: center;
-}
-
-.footer .block {
-display: inline-block;
-vertical-align: top;
-text-align: center;
-line-height: 20px;
-width: 150px;
-padding: 0 10px;
-color: #333;
--webkit-transition: color 0.25s ease-in;
--moz-transition: color 0.25s ease-in;
--ms-transition: color 0.25s ease-in;
--o-transition: color 0.25s ease-in;
-transition: color 0.25s ease-in;
- 
-}
-.block:hover{
-	color: red;
-	transition-delay:0s;
-}
-.footer .block div{
-	font-family: "Lato", sans-serif;
-	font-weight: 300;
-	font-size: 16px;
-	visibility: hidden;  
-	opacity:0;
-	transition:color 0s ease-in 0.25s,visibility 0s ease-in 0.25s,opacity 0.25s ease-in;	
-}
-
-
-.footer .block:hover div{
-
-	visibility: visible;
-	opacity:1;
-	transition-delay:0s;
-	
-}
-
 
 .posts{
 	list-style:none;
