@@ -2,6 +2,10 @@
 
 body{
 	font-family: 'Lato',"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background: #eee;
+}
+.wrapper{
+	background: #fff;
 }
 
 a:hover{
